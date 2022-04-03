@@ -1,0 +1,116 @@
+body {
+  background: #eef8fa;
+
+}
+
+#container {
+  width: 1024px;
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.content-box {
+  overflow: hidden;
+}
+
+.content-box h1 {
+  font-size: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.box {
+  width: 320px;
+  border: 1px solid #b5b5b5;
+  float: left;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.box img {
+  width: 320px;
+  height: 205px;
+}
+
+.box p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.box a {
+  text-decoration: none;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: #fc2f00;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+.aside {
+  margin-top: 20px;
+}
+
+.aside img {
+  width: 190px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 50px;  
+}
+
+.block-text {
+  float: left;
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.block-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #fd3200;
+  margin-bottom: 20px;
+  
+}
+
+.block-text a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: #006de5;
+}
+
+.block-text a:hover {
+  text-decoration: underline;
+  color: #fd3200;
+  transition: 0.9s all;
+}
+
+.banner {
+  clear: both;
+  border-top: 1px solid #515594;
+  text-align: center;
+}
+
+.banner img {
+  width: 324px;
+  padding: 20px;
+}
